@@ -41,15 +41,13 @@ function scrapeData(searchTerm) {
         linksContainer.appendChild(linkElement);
       });
 
-      // ... (rest of the scraping logic) ...
+      downloadLinksButton.addEventListener('click', () => {
+        downloadLinks(links);
+      });
     })
     .catch(error => {
       console.error("Error fetching search results:", error);
     });
-
-  downloadLinksButton.addEventListener('click', () => {
-    downloadLinks(links);
-  });
 }
 
 function downloadLinks(links) {
