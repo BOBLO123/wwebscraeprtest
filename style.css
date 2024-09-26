@@ -1,0 +1,35 @@
+body {
+  background-color: #333; /* Dark gray background */
+  color: white;        /* White text */
+}
+
+button {
+  background-color: #444; /* Darker gray background */
+  color: white;         /* White text */
+  border: 2px solid #aaa; /* Light gray outline */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+}
+
+#download-links-button { 
+  padding: 5px 10px; /* Smaller button */
+}
+
+#links-container { /* Container for the links */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  margin: 5px;
+  padding: 10px;
+  background-color: #555;
+  border-radius: 5px;
+  text-decoration: none; /* Remove default link underline */
+  color: white;
+  cursor: pointer;
+}
