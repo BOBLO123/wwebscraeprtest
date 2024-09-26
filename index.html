@@ -2,20 +2,7 @@
 <html>
 <head>
   <title>Pastebin Filter</title>
-  <style>
-    button {
-      background-color: #ddd; /* Grayish background */
-      color: white;         /* White text */
-      border: 2px solid white; /* White outline */
-      padding: 10px 20px;
-      margin: 5px;
-      border-radius: 5px; /* Rounded corners */
-      cursor: pointer;
-    }
-    #download-links-button { 
-      padding: 5px 10px; /* Smaller button */
-    }
-  </style>
+  <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
   <input type="text" id="search-box" placeholder="Enter your search term">
@@ -26,5 +13,8 @@
   <button id="all-links-button">All Links</button>
   <button id="download-links-button">DOWNLOAD LINKS</button>
 
-  <script src="script.js"></script> </body>
+  <div id="links-container"></div> 
+
+  <script src="script.js"></script>
+</body>
 </html>
